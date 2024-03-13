@@ -1,0 +1,15 @@
+D:\Projects\todomorrow\src\Todomorrow.Contracts\bin\Release\net6.0\Todomorrow.Contracts.deps.json
+D:\Projects\todomorrow\src\Todomorrow.Contracts\bin\Release\net6.0\Todomorrow.Contracts.dll
+D:\Projects\todomorrow\src\Todomorrow.Contracts\bin\Release\net6.0\Todomorrow.Contracts.pdb
+D:\Projects\todomorrow\src\Todomorrow.Contracts\bin\Release\net6.0\Todomorrow.Domain.dll
+D:\Projects\todomorrow\src\Todomorrow.Contracts\bin\Release\net6.0\Todomorrow.Domain.pdb
+D:\Projects\todomorrow\src\Todomorrow.Contracts\obj\Release\net6.0\Todomorrow.Contracts.csproj.AssemblyReference.cache
+D:\Projects\todomorrow\src\Todomorrow.Contracts\obj\Release\net6.0\Todomorrow.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\todomorrow\src\Todomorrow.Contracts\obj\Release\net6.0\Todomorrow.Contracts.AssemblyInfoInputs.cache
+D:\Projects\todomorrow\src\Todomorrow.Contracts\obj\Release\net6.0\Todomorrow.Contracts.AssemblyInfo.cs
+D:\Projects\todomorrow\src\Todomorrow.Contracts\obj\Release\net6.0\Todomorrow.Contracts.csproj.CoreCompileInputs.cache
+D:\Projects\todomorrow\src\Todomorrow.Contracts\obj\Release\net6.0\Todomorrow.Contracts.csproj.CopyComplete
+D:\Projects\todomorrow\src\Todomorrow.Contracts\obj\Release\net6.0\Todomorrow.Contracts.dll
+D:\Projects\todomorrow\src\Todomorrow.Contracts\obj\Release\net6.0\refint\Todomorrow.Contracts.dll
+D:\Projects\todomorrow\src\Todomorrow.Contracts\obj\Release\net6.0\Todomorrow.Contracts.pdb
+D:\Projects\todomorrow\src\Todomorrow.Contracts\obj\Release\net6.0\ref\Todomorrow.Contracts.dll

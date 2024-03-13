@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Todomorrow.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Todomorrow.Api.Controllers.ActionItemsController.Create(Todomorrow.Contracts.ActionItems.CreateActionItemRequest)">
+            <summary>
+            Create a new action item
+            </summary>
+            <returns>A created action item</returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.ActionItemsController.GetById(System.Guid)">
+            <summary>
+            Get action item by id
+            </summary>
+            <returns>A registered action item</returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.ActionItemsController.Update(System.Guid,Todomorrow.Contracts.ActionItems.UpdateActionItemRequest)">
+            <summary>
+            Update a registered action item
+            </summary>
+            <returns>An updated action item</returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.ActionItemsController.GetAll">
+            <summary>
+            Get all action items
+            </summary>
+            <returns>An updated action item</returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.EpicsController.Create(Todomorrow.Contracts.Epics.CreateEpicRequest)">
+            <summary>
+            Create a new epic
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.EpicsController.GetAll">
+            <summary>
+            Get all epics
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.OrganizationsController.Create(Todomorrow.Contracts.Organizations.CreateOrganizationRequest)">
+            <summary>
+            Create a new organization
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.OrganizationsController.FindAll">
+            <summary>
+            List all registered organizations
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.ProjectsController.Create(Todomorrow.Contracts.Projects.CreateProjectRequest)">
+            <summary>
+            Create a new project
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.ProjectsController.Get">
+            <summary>
+            Get all projects
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.UserController.SignIn(Todomorrow.Contracts.Users.SignInRequest)">
+            <summary>
+            Signin
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.UserController.SignUp(Todomorrow.Contracts.Users.SignUpRequest)">
+            <summary>
+            Create a new user
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.UserController.Follow(System.Guid)">
+            <summary>
+            Follow a user
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.UserController.Unfollow(System.Guid)">
+            <summary>
+            Unfollow a user
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.WorkItemsController.Create(Todomorrow.Contracts.WorkItems.CreateWorkItemRequest)">
+            <summary>
+            Create a new work item
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.WorkItemsController.GetAll">
+            <summary>
+            Get all work items
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Todomorrow.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Todomorrow.Api.Controllers.OrganizationsController.Create(Todomorrow.Contracts.Organizations.CreateOrganizationRequest)">
+            <summary>
+            Create a new organization
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.OrganizationsController.FindAll">
+            <summary>
+            List all registered organizations
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.UserController.Signin(Todomorrow.Contracts.Users.SignInRequest)">
+            <summary>
+            Create a new user
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

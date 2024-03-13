@@ -1,0 +1,17 @@
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\bin\Release\net6.0\Todomorrow.Infrastructure.deps.json
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\bin\Release\net6.0\Todomorrow.Infrastructure.dll
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\bin\Release\net6.0\Todomorrow.Infrastructure.pdb
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\bin\Release\net6.0\Todomorrow.Contracts.dll
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\bin\Release\net6.0\Todomorrow.Domain.dll
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\bin\Release\net6.0\Todomorrow.Contracts.pdb
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\bin\Release\net6.0\Todomorrow.Domain.pdb
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\obj\Release\net6.0\Todomorrow.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\obj\Release\net6.0\Todomorrow.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\obj\Release\net6.0\Todomorrow.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\obj\Release\net6.0\Todomorrow.Infrastructure.AssemblyInfo.cs
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\obj\Release\net6.0\Todomorrow.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\obj\Release\net6.0\Todomorrow.Infrastructure.csproj.CopyComplete
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\obj\Release\net6.0\Todomorrow.Infrastructure.dll
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\obj\Release\net6.0\refint\Todomorrow.Infrastructure.dll
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\obj\Release\net6.0\Todomorrow.Infrastructure.pdb
+D:\Projects\todomorrow\src\Todomorrow.Infrastructure\obj\Release\net6.0\ref\Todomorrow.Infrastructure.dll

@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\todomorrow\\src\\Todomorrow.Application\\Todomorrow.Application.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\todomorrow\\src\\Todomorrow.Application\\Todomorrow.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\todomorrow\\src\\Todomorrow.Application\\Todomorrow.Application.csproj",
+        "projectName": "Todomorrow.Application",
+        "projectPath": "D:\\Projects\\todomorrow\\src\\Todomorrow.Application\\Todomorrow.Application.csproj",
+        "packagesPath": "C:\\Users\\Paulo Roberto\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\todomorrow\\src\\Todomorrow.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Projects\\NuGet.Config",
+          "C:\\Users\\Paulo Roberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/Iron-Man-Libs/index.json": {},
+          "https://nuget.pkg.github.com/Schedy-Company/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\todomorrow\\src\\Todomorrow.Domain\\Todomorrow.Domain.csproj": {
+                "projectPath": "D:\\Projects\\todomorrow\\src\\Todomorrow.Domain\\Todomorrow.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\todomorrow\\src\\Todomorrow.Domain\\Todomorrow.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\todomorrow\\src\\Todomorrow.Domain\\Todomorrow.Domain.csproj",
+        "projectName": "Todomorrow.Domain",
+        "projectPath": "D:\\Projects\\todomorrow\\src\\Todomorrow.Domain\\Todomorrow.Domain.csproj",
+        "packagesPath": "C:\\Users\\Paulo Roberto\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\todomorrow\\src\\Todomorrow.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Projects\\NuGet.Config",
+          "C:\\Users\\Paulo Roberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/Iron-Man-Libs/index.json": {},
+          "https://nuget.pkg.github.com/Schedy-Company/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

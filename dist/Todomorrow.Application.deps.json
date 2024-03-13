@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Todomorrow.Application/1.0.0": {
+        "dependencies": {
+          "Todomorrow.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Todomorrow.Application.dll": {}
+        }
+      },
+      "Todomorrow.Domain/1.0.0": {
+        "runtime": {
+          "Todomorrow.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Todomorrow.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Todomorrow.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

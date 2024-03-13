@@ -1,0 +1,5 @@
+D:\Projects\todomorrow\dist\Todomorrow.Contracts.dll
+D:\Projects\todomorrow\dist\Todomorrow.Contracts.deps.json
+D:\Projects\todomorrow\dist\Todomorrow.Contracts.pdb
+D:\Projects\todomorrow\dist\Todomorrow.Domain.dll
+D:\Projects\todomorrow\dist\Todomorrow.Domain.pdb

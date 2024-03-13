@@ -1,0 +1,15 @@
+D:\Projects\todomorrow\src\Todomorrow.Application\bin\Debug\net6.0\Todomorrow.Application.deps.json
+D:\Projects\todomorrow\src\Todomorrow.Application\bin\Debug\net6.0\Todomorrow.Application.dll
+D:\Projects\todomorrow\src\Todomorrow.Application\bin\Debug\net6.0\Todomorrow.Application.pdb
+D:\Projects\todomorrow\src\Todomorrow.Application\bin\Debug\net6.0\Todomorrow.Domain.dll
+D:\Projects\todomorrow\src\Todomorrow.Application\bin\Debug\net6.0\Todomorrow.Domain.pdb
+D:\Projects\todomorrow\src\Todomorrow.Application\obj\Debug\net6.0\Todomorrow.Application.csproj.AssemblyReference.cache
+D:\Projects\todomorrow\src\Todomorrow.Application\obj\Debug\net6.0\Todomorrow.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\todomorrow\src\Todomorrow.Application\obj\Debug\net6.0\Todomorrow.Application.AssemblyInfoInputs.cache
+D:\Projects\todomorrow\src\Todomorrow.Application\obj\Debug\net6.0\Todomorrow.Application.AssemblyInfo.cs
+D:\Projects\todomorrow\src\Todomorrow.Application\obj\Debug\net6.0\Todomorrow.Application.csproj.CoreCompileInputs.cache
+D:\Projects\todomorrow\src\Todomorrow.Application\obj\Debug\net6.0\Todomorrow.Application.csproj.CopyComplete
+D:\Projects\todomorrow\src\Todomorrow.Application\obj\Debug\net6.0\Todomorrow.Application.dll
+D:\Projects\todomorrow\src\Todomorrow.Application\obj\Debug\net6.0\refint\Todomorrow.Application.dll
+D:\Projects\todomorrow\src\Todomorrow.Application\obj\Debug\net6.0\Todomorrow.Application.pdb
+D:\Projects\todomorrow\src\Todomorrow.Application\obj\Debug\net6.0\ref\Todomorrow.Application.dll

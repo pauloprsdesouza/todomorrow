@@ -1,0 +1,17 @@
+D:\Projects\todomorrow\dist\Todomorrow.Infrastructure.dll
+D:\Projects\todomorrow\dist\Todomorrow.Infrastructure.deps.json
+D:\Projects\todomorrow\dist\Todomorrow.Infrastructure.pdb
+D:\Projects\todomorrow\dist\Amazon.Lambda.APIGatewayEvents.dll
+D:\Projects\todomorrow\dist\Amazon.Lambda.ApplicationLoadBalancerEvents.dll
+D:\Projects\todomorrow\dist\Amazon.Lambda.AspNetCoreServer.dll
+D:\Projects\todomorrow\dist\Amazon.Lambda.Core.dll
+D:\Projects\todomorrow\dist\Amazon.Lambda.Logging.AspNetCore.dll
+D:\Projects\todomorrow\dist\Amazon.Lambda.Serialization.SystemTextJson.dll
+D:\Projects\todomorrow\dist\AutoMapper.dll
+D:\Projects\todomorrow\dist\AWSSDK.Core.dll
+D:\Projects\todomorrow\dist\AWSSDK.DynamoDBv2.dll
+D:\Projects\todomorrow\dist\AWSSDK.Lambda.dll
+D:\Projects\todomorrow\dist\Todomorrow.Contracts.dll
+D:\Projects\todomorrow\dist\Todomorrow.Domain.dll
+D:\Projects\todomorrow\dist\Todomorrow.Contracts.pdb
+D:\Projects\todomorrow\dist\Todomorrow.Domain.pdb

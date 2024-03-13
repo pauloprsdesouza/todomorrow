@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bdLLuG5X4f2AIAtNBBkVpONUlF3IM24w2mkjl4zd8gg=",
+  "Source": "Todomorrow.Api",
+  "BasePath": "_content/Todomorrow.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

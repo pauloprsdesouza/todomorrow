@@ -1,0 +1,11 @@
+D:\Projects\todomorrow\src\Todomorrow.Domain\bin\Debug\net6.0\Todomorrow.Domain.deps.json
+D:\Projects\todomorrow\src\Todomorrow.Domain\bin\Debug\net6.0\Todomorrow.Domain.dll
+D:\Projects\todomorrow\src\Todomorrow.Domain\bin\Debug\net6.0\Todomorrow.Domain.pdb
+D:\Projects\todomorrow\src\Todomorrow.Domain\obj\Debug\net6.0\Todomorrow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\todomorrow\src\Todomorrow.Domain\obj\Debug\net6.0\Todomorrow.Domain.AssemblyInfoInputs.cache
+D:\Projects\todomorrow\src\Todomorrow.Domain\obj\Debug\net6.0\Todomorrow.Domain.AssemblyInfo.cs
+D:\Projects\todomorrow\src\Todomorrow.Domain\obj\Debug\net6.0\Todomorrow.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\todomorrow\src\Todomorrow.Domain\obj\Debug\net6.0\Todomorrow.Domain.dll
+D:\Projects\todomorrow\src\Todomorrow.Domain\obj\Debug\net6.0\refint\Todomorrow.Domain.dll
+D:\Projects\todomorrow\src\Todomorrow.Domain\obj\Debug\net6.0\Todomorrow.Domain.pdb
+D:\Projects\todomorrow\src\Todomorrow.Domain\obj\Debug\net6.0\ref\Todomorrow.Domain.dll
