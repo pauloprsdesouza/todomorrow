@@ -8,6 +8,6 @@ namespace Todomorrow.Domain.Projects
     public interface IProjectRepository : IBaseRepository<Project>
     {
         Task<Project> GetByIdIncludingOrganization(Guid projectId);
-        Task<List<Project>> GetAllIdIncludingOrganization();
+        Task<IEnumerable<Project>> GetAllIdIncludingOrganization();
     }
 }

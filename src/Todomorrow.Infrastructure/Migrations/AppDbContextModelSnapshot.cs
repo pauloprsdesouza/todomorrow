@@ -262,9 +262,6 @@ namespace Todomorrow.Infrastructure.Migrations
                     b.Property<DateTimeOffset>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<int>("Level")
-                        .HasColumnType("integer");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
@@ -343,6 +340,36 @@ namespace Todomorrow.Infrastructure.Migrations
                     b.ToTable("Followers", "todomorrow");
                 });
 
+            modelBuilder.Entity("Todomorrow.Domain.UserSkills.UserSkill", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("Level")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("SoftSkillId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTimeOffset?>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SoftSkillId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserSkill", "todomorrow");
+                });
+
             modelBuilder.Entity("Todomorrow.Domain.Users.User", b =>
                 {
                     b.Property<Guid>("Id")
@@ -396,21 +423,6 @@ namespace Todomorrow.Infrastructure.Migrations
                     b.HasIndex("EpicId");
 
                     b.ToTable("WorkItem", "todomorrow");
-                });
-
-            modelBuilder.Entity("UserSkill", b =>
-                {
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("SoftSkillId")
-                        .HasColumnType("uuid");
-
-                    b.HasKey("UserId", "SoftSkillId");
-
-                    b.HasIndex("SoftSkillId");
-
-                    b.ToTable("UserSkill", "todomorrow");
                 });
 
             modelBuilder.Entity("RequiredSoftSkill", b =>
@@ -540,6 +552,25 @@ namespace Todomorrow.Infrastructure.Migrations
                     b.Navigation("Follower");
                 });
 
+            modelBuilder.Entity("Todomorrow.Domain.UserSkills.UserSkill", b =>
+                {
+                    b.HasOne("Todomorrow.Domain.SoftSkills.SoftSkill", "SoftSkill")
+                        .WithMany("UserSkills")
+                        .HasForeignKey("SoftSkillId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Todomorrow.Domain.Users.User", "User")
+                        .WithMany("SoftSkills")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("SoftSkill");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Todomorrow.Domain.WorkItems.WorkItem", b =>
                 {
                     b.HasOne("Todomorrow.Domain.Epics.Epic", "Epic")
@@ -549,21 +580,6 @@ namespace Todomorrow.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Epic");
-                });
-
-            modelBuilder.Entity("UserSkill", b =>
-                {
-                    b.HasOne("Todomorrow.Domain.SoftSkills.SoftSkill", null)
-                        .WithMany()
-                        .HasForeignKey("SoftSkillId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Todomorrow.Domain.Users.User", null)
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("Todomorrow.Domain.Categories.Category", b =>
@@ -590,6 +606,11 @@ namespace Todomorrow.Infrastructure.Migrations
                     b.Navigation("Epics");
                 });
 
+            modelBuilder.Entity("Todomorrow.Domain.SoftSkills.SoftSkill", b =>
+                {
+                    b.Navigation("UserSkills");
+                });
+
             modelBuilder.Entity("Todomorrow.Domain.Subcategories.Subcategory", b =>
                 {
                     b.Navigation("SoftSkills");
@@ -604,6 +625,8 @@ namespace Todomorrow.Infrastructure.Migrations
                     b.Navigation("Organizations");
 
                     b.Navigation("Partners");
+
+                    b.Navigation("SoftSkills");
                 });
 
             modelBuilder.Entity("Todomorrow.Domain.WorkItems.WorkItem", b =>

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Net.Mime;
 using System.Threading.Tasks;
@@ -39,17 +40,34 @@ namespace Todomorrow.Api.Controllers
         }
 
         /// <summary>
-        /// Get all projects
+        /// Update a registered a project
         /// </summary>
         /// <returns></returns>
-        [HttpGet]
+        [HttpPost, Route("{projectId}")]
         [Produces(MediaTypeNames.Application.Json)]
-        [ProducesResponseType(typeof(List<ProjectResponse>), StatusCodes.Status200OK)]
-        public async Task<IActionResult> Get()
+        [ProducesResponseType(typeof(ProjectResponse), StatusCodes.Status200OK)]
+        public async Task<IActionResult> Update([FromRoute] Guid projectId, [FromBody] UpdateProjectRequest request)
         {
-            List<Project> projects = await _projectService.GetAll();
+            Project project = _mapper.Map<Project>(request);
+            project.Id = projectId;
 
-            return Ok(_mapper.Map<List<ProjectResponse>>(projects));
+            project = await _projectService.Create(project);
+
+            return Ok(project is not null ? _mapper.Map<ProjectResponse>(project) : null);
+        }
+
+        /// <summary>
+        /// Get a registered a project
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet, Route("{projectId}")]
+        [Produces(MediaTypeNames.Application.Json)]
+        [ProducesResponseType(typeof(ProjectResponse), StatusCodes.Status200OK)]
+        public async Task<IActionResult> GetById([FromRoute] Guid projectId)
+        {
+            Project project = await _projectService.GetById(projectId);
+
+            return Ok(project is not null ? _mapper.Map<ProjectResponse>(project) : null);
         }
     }
 }

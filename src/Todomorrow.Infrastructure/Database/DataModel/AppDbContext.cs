@@ -9,6 +9,7 @@ using Todomorrow.Domain.Projects;
 using Todomorrow.Domain.SoftSkills;
 using Todomorrow.Domain.UserFollowers;
 using Todomorrow.Domain.Users;
+using Todomorrow.Domain.UserSkills;
 using Todomorrow.Domain.WorkItems;
 
 namespace Todomorrow.Infrastructure.Database.DataModel
@@ -37,6 +38,7 @@ namespace Todomorrow.Infrastructure.Database.DataModel
         public DbSet<SoftSkill> SoftSkills { get; set; }
         public DbSet<WorkItem> WorkItems { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<UserSkill> UserSkills { get; set; }
         public DbSet<Collaborator> Collaborators { get; set; }
         public DbSet<Partner> Partners { get; set; }
         public DbSet<UserFollower> Followers { get; set; }

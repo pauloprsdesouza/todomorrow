@@ -27,6 +27,8 @@ namespace Todomorrow.Infrastructure.Database.DataModel.Users
             _ = builder.HasMany(x => x.Followees).WithOne(x => x.Followee).HasForeignKey(x => x.FolloweeId);
 
             _ = builder.HasMany(x => x.Organizations).WithOne(x => x.User).HasForeignKey(x => x.UserId);
+
+            _ = builder.HasMany(x => x.SoftSkills).WithOne(x => x.User).HasForeignKey(x => x.UserId);
         }
     }
 }

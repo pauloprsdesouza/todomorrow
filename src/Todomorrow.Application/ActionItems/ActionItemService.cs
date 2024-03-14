@@ -44,7 +44,7 @@ namespace Todomorrow.Application.ActionItems
             return actionItem;
         }
 
-        public Task<List<ActionItem>> GetAll()
+        public Task<IEnumerable<ActionItem>> GetAll()
         {
             return _actionItemRepository.GetAll();
         }

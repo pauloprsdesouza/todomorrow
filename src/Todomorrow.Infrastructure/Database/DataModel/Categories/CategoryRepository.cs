@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Todomorrow.Domain.ActionItems;
+using Todomorrow.Domain.Categories;
+using Todomorrow.Infrastructure.Database.DataModel.BaseModels;
 
 namespace Todomorrow.Infrastructure.Database.DataModel.Categories
 {
-    public class CategoryRepository
+    public class CategoryRepository : BaseRepository<Category>, ICategoryRepository
     {
+        public CategoryRepository(AppDbContext dbContext) : base(dbContext)
+        {
+
+        }
     }
 }

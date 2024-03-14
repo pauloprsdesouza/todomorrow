@@ -32,7 +32,7 @@ namespace Todomorrow.Application.Features
             return await _workItemRepository.Create(workItem);
         }
 
-        public Task<List<WorkItem>> GetAll()
+        public Task<IEnumerable<WorkItem>> GetAll()
         {
             return _workItemRepository.GetAll();
         }

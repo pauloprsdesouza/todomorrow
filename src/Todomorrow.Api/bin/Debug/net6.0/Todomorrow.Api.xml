@@ -28,9 +28,33 @@
             </summary>
             <returns>An updated action item</returns>
         </member>
+        <member name="M:Todomorrow.Api.Controllers.CategoriesController.Create(Todomorrow.Contracts.Categories.CreateCategoryRequest)">
+            <summary>
+            Create a new category
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.CategoriesController.Update(System.Guid,Todomorrow.Contracts.Categories.UpdateCategoryRequest)">
+            <summary>
+            Update a registered category
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.CategoriesController.GetAll">
+            <summary>
+            Get all registered categories
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:Todomorrow.Api.Controllers.EpicsController.Create(Todomorrow.Contracts.Epics.CreateEpicRequest)">
             <summary>
             Create a new epic
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.EpicsController.Update(System.Guid,Todomorrow.Contracts.Epics.UpdateEpicRequest)">
+            <summary>
+            Update a registered an epic
             </summary>
             <returns></returns>
         </member>
@@ -58,9 +82,39 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Todomorrow.Api.Controllers.ProjectsController.Get">
+        <member name="M:Todomorrow.Api.Controllers.ProjectsController.Update(System.Guid,Todomorrow.Contracts.Projects.UpdateProjectRequest)">
             <summary>
-            Get all projects
+            Update a registered a project
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.ProjectsController.GetById(System.Guid)">
+            <summary>
+            Get a registered a project
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.SoftSkillsController.Create(Todomorrow.Contracts.SoftSkills.CreateSoftSkillRequest)">
+            <summary>
+            Create a new soft skill
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.SoftSkillsController.Create(System.Guid)">
+            <summary>
+            Get all soft skills for a subcategory
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.SubcategoriesController.Create(Todomorrow.Contracts.Subcategories.CreateSubcategoryRequest)">
+            <summary>
+            Create a new subcategory
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.SubcategoriesController.GetById(System.Guid)">
+            <summary>
+            Get all subcategories for a category
             </summary>
             <returns></returns>
         </member>
@@ -85,6 +139,24 @@
         <member name="M:Todomorrow.Api.Controllers.UserController.Unfollow(System.Guid)">
             <summary>
             Unfollow a user
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.UserSkillsController.Create(Todomorrow.Contracts.UserSkills.CreateUserSkillRequest)">
+            <summary>
+            Create a new user skill
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.UserSkillsController.Update(System.Guid,Todomorrow.Contracts.UserSkills.UpdateUserSkillRequest)">
+            <summary>
+            Update a registered user skill
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Todomorrow.Api.Controllers.UserSkillsController.GetAll">
+            <summary>
+            Get all user skills
             </summary>
             <returns></returns>
         </member>

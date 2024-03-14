@@ -9,6 +9,6 @@ namespace Todomorrow.Domain.WorkItems
         Task<WorkItem> Create(WorkItem workItem);
         Task<WorkItem> Update(WorkItem workItem);
         Task<WorkItem> GetById(Guid workItemId);
-        Task<List<WorkItem>> GetAll();
+        Task<IEnumerable<WorkItem>> GetAll();
     }
 }

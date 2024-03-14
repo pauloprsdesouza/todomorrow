@@ -60,7 +60,7 @@ namespace Todomorrow.Infrastructure.Database.DataModel.BaseModels
         return await Task.FromResult(obj);
     }
 
-    public async Task<List<T>> GetAll()
+    public async Task<IEnumerable<T>> GetAll()
     {
         return await _database.ToListAsync();
     }

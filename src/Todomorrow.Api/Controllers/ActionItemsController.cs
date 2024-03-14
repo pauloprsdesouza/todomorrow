@@ -76,12 +76,12 @@ namespace Todomorrow.Api.Controllers
         /// <returns>An updated action item</returns>
         [HttpGet]
         [Produces(MediaTypeNames.Application.Json)]
-        [ProducesResponseType(typeof(List<ActionItemResponse>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(IEnumerable<ActionItemResponse>), StatusCodes.Status200OK)]
         public async Task<IActionResult> GetAll()
         {
-            List<ActionItem> actionItems = await _actionItemService.GetAll();
+            IEnumerable<ActionItem> actionItems = await _actionItemService.GetAll();
 
-            return Ok(_mapper.Map<List<ActionItemResponse>>(actionItems));
+            return Ok(_mapper.Map<IEnumerable<ActionItemResponse>>(actionItems));
         }
     }
 }

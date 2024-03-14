@@ -44,7 +44,7 @@ namespace Todomorrow.Application.Epics
             return epic;
         }
 
-        public async Task<List<Epic>> GetAll()
+        public async Task<IEnumerable<Epic>> GetAll()
         {
             return await _epicRepository.GetAll();
         }

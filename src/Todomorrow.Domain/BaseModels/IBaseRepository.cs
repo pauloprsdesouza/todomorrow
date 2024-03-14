@@ -6,7 +6,7 @@ namespace Todomorrow.Domain.BaseModels
 {
     public interface IBaseRepository<T> where T : BaseModel
     {
-        Task<List<T>> GetAll();
+        Task<IEnumerable<T>> GetAll();
         Task<T> GetById(Guid id);
         Task<T> Create(T obj);
         Task<T> Add(T obj);

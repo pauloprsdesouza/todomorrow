@@ -13,7 +13,11 @@ namespace Todomorrow.Api.Dependencies
                                    typeof(WorkItemProfile),
                                    typeof(EpicProfile),
                                    typeof(UserProfile),
-                                   typeof(OrganizationProfile));
+                                   typeof(OrganizationProfile),
+                                   typeof(CategoryProfile),
+                                   typeof(SubcategoryProfile),
+                                   typeof(SoftSkillProfile),
+                                   typeof(UserSkillProfile));
         }
     }
 }

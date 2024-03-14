@@ -9,6 +9,6 @@ namespace Todomorrow.Domain.Epics
         Task<Epic> Create(Epic epic);
         Task<Epic> Update(Epic epic);
         Task<Epic> GetById(Guid epicId);
-        Task<List<Epic>> GetAll();
+        Task<IEnumerable<Epic>> GetAll();
     }
 }

@@ -22,11 +22,6 @@ namespace Todomorrow.Application.Projects
             return await _projectRepository.Create(project);
         }
 
-        public async Task<List<Project>> GetAll()
-        {
-            return await _projectRepository.GetAllIdIncludingOrganization();
-        }
-
         public async Task<Project> GetById(Guid projectId)
         {
             Project project = await ValidateProject(projectId);

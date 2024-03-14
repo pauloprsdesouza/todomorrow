@@ -9,6 +9,6 @@ namespace Todomorrow.Domain.ActionItems
         Task<ActionItem> Create(ActionItem actionItem);
         Task<ActionItem> Update(ActionItem actionItem);
         Task<ActionItem> GetById(Guid actionItemId);
-        Task<List<ActionItem>> GetAll();
+        Task<IEnumerable<ActionItem>> GetAll();
     }
 }

@@ -13,7 +13,7 @@ namespace Todomorrow.Infrastructure.Database.DataModel.Projects
         {
         }
 
-        public async Task<List<Project>> GetAllIdIncludingOrganization()
+        public async Task<IEnumerable<Project>> GetAllIdIncludingOrganization()
         {
             return await _database.Include(x => x.Organization).ToListAsync();
         }

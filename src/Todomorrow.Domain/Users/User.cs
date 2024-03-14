@@ -2,8 +2,8 @@
 using Todomorrow.Domain.BaseModels;
 using Todomorrow.Domain.Collaborators;
 using Todomorrow.Domain.Partners;
-using Todomorrow.Domain.SoftSkills;
 using Todomorrow.Domain.UserFollowers;
+using Todomorrow.Domain.UserSkills;
 
 namespace Todomorrow.Domain.Users
 {
@@ -11,7 +11,7 @@ namespace Todomorrow.Domain.Users
     {
         public string Email { get; set; }
         public string Name { get; set; }
-        public List<SoftSkill> SoftSkills { get; set; } = new();
+        public List<UserSkill> SoftSkills { get; set; } = new();
         public List<UserFollower> Followers { get; set; } = new();
         public List<UserFollower> Followees { get; set; } = new();
         public List<Collaborator> Organizations { get; set; } = new();
