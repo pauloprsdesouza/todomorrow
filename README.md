@@ -1,23 +1,31 @@
 # Todomorrow
 
-Task management backend project focused on clean .NET architecture patterns.
+[![License](https://img.shields.io/github/license/pauloprsdesouza/todomorrow)](./LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/pauloprsdesouza/todomorrow)](https://github.com/pauloprsdesouza/todomorrow/commits)
+[![Top Language](https://img.shields.io/github/languages/top/pauloprsdesouza/todomorrow)](https://github.com/pauloprsdesouza/todomorrow)
 
-## What this repository contains
-- Backend source code for to-do/productivity workflows
-- Build artifacts and support tooling
+## Overview
+Task management API project focused on clean .NET architecture patterns.
 
-## Tech stack
+## Tech Stack
+- C#
 - C# / .NET
 
-## Project structure
-- `src/` - main application code
-- `tools/` - support scripts
-- `dist/` - generated/distribution artifacts
+## Repository Structure
+- `src/` - main source code
+- `tools/` - support scripts/utilities
 
-## Getting started
-1. Install .NET SDK.
-2. Restore dependencies from the project under `src/`.
+## Quick Start
+1. Install a compatible .NET SDK.
+2. Restore dependencies from the solution/project.
 3. Build and run locally.
 
-## Notes
-Intended as a foundation project and can be extended with authentication, persistence, and deployment pipelines.
+## Validation
+- Run local build and tests where available.
+- Validate main workflows/endpoints before opening pull requests.
+
+## Contributing
+See `CONTRIBUTING.md` for contribution and PR guidelines.
+
+## Status
+Actively maintained by Paulo Roberto de Souza.
